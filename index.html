@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+    
+    <link id="icon" rel="shortcut icon" href="img/pokeball.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/jquery-3.7.1.min (1).js"></script>
+    <script src="javascript/script.js" defer></script>    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+</head>
+<body>
+
+    <div id="global">
+        <section id="cabecalho">
+            <div id="nav-icons">
+                <span class="material-symbols-outlined nav-icons" id="search">
+                    search
+                </span>
+                <input type="text" id="busca" placeholder="Estou procurando por...">
+                <span class="material-symbols-outlined nav-icons" id="close">
+                    close
+                </span>
+            </div>
+            <nav>
+                <div id="menu">
+                    <p id="menu-departaments">
+                        <img id="img-loc" src="img/pokelocalizacao.png" alt="">
+                        Regiões
+                        <span class="material-symbols-outlined">
+                            stat_minus_1
+                        </span>
+                    </p>
+                    <div id="" class="exibir menu-none">
+                        <a href="#">Kanto</a>
+                        <a href="#">Johto</a>
+                        <a href="#">Hoenn</a>
+                        <a href="#">Sinnoh</a>
+                        <a href="#">Unova</a>
+                        <a href="#">Kalos</a>
+                        <a href="#">Alola</a>
+                        <a href="#">Galar</a>
+                    </div>
+                </div>
+                <div id="menu-direito">
+                    <a href="#">Pesquise por</a>
+                    <a href="#">Nome</a>
+                    <a href="#">Tipo (inglês)</a>
+                    <a href="#">Região (inglês)</a>
+                </div>
+            </nav>
+            <article id="poke">
+            </article>
+        </section>
+
+        <section id="slider">
+        
+        
+            <input type="radio" name="btn-radio" id="radio1" checked>
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+            <input type="radio" name="btn-radio" id="radio4">
+            <input type="radio" name="btn-radio" id="radio5">
+            <input type="radio" name="btn-radio" id="radio6">
+            <input type="radio" name="btn-radio" id="radio7">
+            <input type="radio" name="btn-radio" id="radio8">
+            <input type="radio" name="btn-radio" id="radio9">
+            <input type="radio" name="btn-radio" id="radio10">
+
+
+            <div id="slider-action">
+    
+                 <div class="slide-card first">
+                    <div class="slide_card-text">
+                        <h1 id="ht1"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img1" src="" alt="">
+                </div>
+                 
+                <div class="slide-card">
+                    <div class="slide_card-text">
+                        <h1 id="ht2"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img2" src="" alt="">
+                </div>
+        
+                <div class="slide-card">
+                    <div class="slide_card-text">
+                        <h1 id="ht3"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img3" src="" alt="">
+                </div>
+        
+                <div class="slide-card">
+                    <div class="slide_card-text">
+                        <h1 id="ht4"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img4" src="" alt="">
+                </div>
+        
+                <div class="slide-card">
+                    <div class="slide_card-text">
+                        <h1 id="ht5"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img5" src="" alt="">
+                </div>
+        
+                <div class="slide-card">
+                    <div class="slide_card-text">
+                        <h1 id="ht6"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img6" src="" alt="">
+                </div>
+                <div class="slide-card">
+                    <div class="slide_card-text">
+                        <h1 id="ht7"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img7" src="" alt="">
+                </div>
+        
+                <div class="slide-card">
+                    <div class="slide_card-text">
+                        <h1 id="ht8"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img8" src="" alt="">
+                </div>
+        
+                <div class="slide-card">
+                    <div class="slide_card-text">
+                        <h1 id="ht9"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img9" src="" alt="">
+                </div>
+        
+                <div class="slide-card">
+                    <div class="slide_card-text">
+                        <h1 id="ht10"></h1>
+                    </div>
+                    <img class="imagem-slide" id="img10" src="" alt="">
+                </div> 
+            </div>
+        
+        </section>
+        <main>
+            <h2>Quem é esse Pokémon?</h2>
+        </main>
+        <article id="chamar-mais">
+            <!-- <button id="ver-mais">Ver Mais</button> -->
+        </article>
+        <footer>
+            <div id="descricao">
+                <p class="descricao-title">Sobre Nós</p>
+                <p class="descricao-title">Gerações</p>
+                <p class="descricao-title">Pokémons</p>
+                <p class="descricao-title">Suporte</p>
+            </div>
+            <article id="descricao-text">
+                <div class="descricao-text2">
+                    <a href="#">Desenvolvedores</a>
+                    <a href="#">Doadores</a>
+                    <a href="#">Patrocidadores</a>
+                    <a href="#">Apoiadores</a>
+                </div>
+                <div class="descricao-text2">
+                    <a href="#">Passada</a>
+                    <a href="#">Atual</a>
+                    <a href="#">Futura</a>
+                </div>
+                <div class="descricao-text2">
+                    <a href="#">Origem</a>
+                    <a href="#">Objetivos</a>
+                    <a href="#">Evoluções</a>
+                </div>
+                <div class="descricao-text2">
+                    <a href="#">Chat Bot</a>
+                    <a href="#">
+                        <img class="logo-footer" src="img/instagram.png" alt="logo instagram">
+                        pokemon_official
+                    </a>
+                    <a href="#">bradmpokemon@gmail.com</a>
+                </div>
+            </article>
+            <section id="desenvolvedores">                
+                Developed by Lorena Marques Apolinário and Vitor Eduardo Felicio    
+            </section>
+        </footer>
+        <img src="img/istockphoto-1502844272-612x612.jpg" alt="">
+    </div>
+    
+    
+</body>
+</html>
+
+
+
