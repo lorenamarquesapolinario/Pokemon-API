@@ -613,7 +613,7 @@ footer{
     }
     .card-pokebola{
         justify-content: center;
-        width: 280px;
+        width: 250px;
         padding: 15px;
     }
     .poke-descricao{
@@ -622,7 +622,7 @@ footer{
         font-size: small;
     }
     .poke-nome{
-        width: 70%;
+        width: 60%;
     }
     .poke-habilidades{
         flex-direction: column;
