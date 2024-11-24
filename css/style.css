@@ -616,7 +616,7 @@ footer{
         padding: 15px;
     }
     .poke-descricao{
-        width:140px;
+        width:240px;
         margin: 30px 0;
         font-size: small;
     }
@@ -644,8 +644,8 @@ footer{
         font-size: medium;
     }
     .pokebola{
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
     #poke span{
         font-size: large;
