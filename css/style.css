@@ -544,9 +544,9 @@ footer{
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
     #cabecalho{
-        max-width: 750px;
+        width: 850px;
     }
     #busca{
         width: 80%;
@@ -597,12 +597,12 @@ footer{
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #cabecalho{
-        max-width: 400px;
+        max-width: 500px;
     }
     #busca{
-        width: 180px;
+        width: 160px;
     }
     main{
         max-width: 400px;
@@ -616,33 +616,42 @@ footer{
     .card-pokebola{
         justify-content: center;
         width: 200px;
+        padding: 15px;
     }
     .poke-descricao{
-        width: 220px;
+        width:140px;
         margin: 30px 0;
-        font-size: medium;
+        font-size: small;
     }
     .poke-habilidades{
         flex-direction: column;
         align-items: center;
         width: 100%;
-        font-size: medium;
     }
     .habilidades{
         margin: 5px;
+        font-size: small;
+        padding: 10px 2px;
     }
     .type{
         width: 100%;
         padding: 10px 2px;
+        font-size: small;
+        margin-bottom: 0px;
     }
     .types{
+        margin: 0px;
         display: flex;
         padding: 0;
         flex-direction: column;
         font-size: medium;
     }
     .pokebola{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
+    }
+    #poke span{
+        font-size: large;
+        padding: 10px;
     }
 }

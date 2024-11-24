@@ -320,10 +320,10 @@ $(document).ready(function(){
     // realizar busca por tipo apartir do evento de click no menu suspenso
     $('.menu-none a').click(function(){
         limparInput();
-        verifica();
         
         let valor = $(this).html();
         valor = valor.toLowerCase();
+        $(".menu-none").toggleClass("exibir");
         loadpkRegion(valor);
     });
     
@@ -357,18 +357,16 @@ $(document).ready(function(){
 
 
 
-    $('#menu-departaments').click( () => {
-        // alert('ll')
+    $('#menu').click( () => {
         $(".menu-none").toggleClass("exibir");
     })
 
 
     function verifica(){
         let veri = $(".menu-none").css("display");
-        if(veri == 'flex'){            
+        if(veri == "flex"){            
             $(".menu-none").toggleClass("exibir");
         }
-
         return;
     }
 });
