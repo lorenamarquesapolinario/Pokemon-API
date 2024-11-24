@@ -611,16 +611,13 @@ footer{
     #menu-direito{        
         display: none;
     }
-    #poke{
-        text-align: center;
-    }
     .card-pokebola{
         justify-content: center;
-        width: 300px;
+        width: 200px;
         padding: 15px;
     }
     .poke-descricao{
-        width: 100%;
+        width:290px;
         margin: 30px 0;
         font-size: small;
     }
